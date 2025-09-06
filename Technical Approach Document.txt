@@ -1,0 +1,161 @@
+
+
+---
+
+# 📄 Technical Approach Document
+
+**Project:** AI Medical Appointment Scheduler
+**Author:** Siva Kumar Yerramsetti
+
+---
+
+## 1. 🎯 Objective
+
+To design and implement an AI-driven appointment scheduling system that:
+
+* Automates patient bookings.
+* Reduces no-shows via reminders.
+* Streamlines clinic operations with confirmations and data exports.
+
+---
+
+## 2. 🏗️ System Architecture
+
+### Components
+
+1. **Frontend (UI Layer)**
+
+   * Built with **Streamlit**.
+   * Handles patient inputs, doctor selection, and slot booking.
+
+2. **Business Logic Layer (graph.py)**
+
+   * Patient lookup & registration.
+   * Slot availability & booking logic.
+   * Confirmation & reminder handling.
+
+3. **Utilities (tools.py)**
+
+   * Email and SMS communication.
+   * Intake form generation.
+   * Data export (Excel, CSV).
+
+4. **Data Models (state.py)**
+
+   * Defines `PatientInfo` and `AppointmentInfo` dataclasses.
+
+5. **Data Storage (CSV-based)**
+
+   * `patients.csv` → Patient database.
+   * `doctors_availability.csv` → Doctor schedules.
+   * `bookings.csv` → Appointment records.
+   * `reminders.csv` → Reminder log.
+
+---
+
+## 3. ⚙️ Technical Stack
+
+* **Frontend:** Streamlit (Python web app).
+* **Backend Logic:** Python (functions in `graph.py`).
+* **Data:** CSV & Excel (pandas, openpyxl).
+* **Email:** Gmail SMTP (App Password).
+* **SMS:** Simulated (can extend to Twilio API).
+* **Docs/Forms:** PDF export using `reportlab` (optional).
+* **Scheduler:** APScheduler (future improvement).
+
+---
+
+## 4. 🔑 Core Features & Implementation
+
+### 4.1 Patient Greeting & Lookup
+
+* Input: Full Name, DOB, Email, Phone, Insurance details.
+* Process:
+
+  * Search `patients.csv` for existing record.
+  * If not found → create new patient with `generate_patient_id()`.
+* Output: Patient record (existing or new).
+
+---
+
+### 4.2 Smart Scheduling
+
+* Input: Doctor, Date, Patient type (New/Returning).
+* Logic:
+
+  * New patient → 60 min slot.
+  * Returning → 30 min slot.
+* Availability: Read from `doctors_availability.csv`.
+
+---
+
+### 4.3 Appointment Booking
+
+* Marks selected slot as `is_booked=True` in `doctors_availability.csv`.
+* Saves appointment in `bookings.csv`.
+
+---
+
+### 4.4 Confirmation & Notifications
+
+* **Email:** Uses Gmail SMTP.
+* **SMS:** Currently simulated (prints to console).
+* Attaches intake form (PDF generated per patient).
+
+---
+
+### 4.5 Reminders
+
+* For MVP: Reminder logged into `reminders.csv`.
+* Future: APScheduler jobs → send reminders at T-3 days, T-1 day, T-2 hours.
+
+---
+
+### 4.6 Data Export
+
+* Admin can export patient/booking data into Excel.
+* Used for clinic review and reporting.
+
+---
+
+## 5. 📊 Data Flow
+
+1. Patient enters details via Streamlit form.
+2. System checks patient database.
+3. Available slots retrieved from doctor schedule.
+4. On selection:
+
+   * Slot booked.
+   * Appointment saved.
+   * Confirmation sent (Email + SMS).
+   * Intake form distributed.
+5. Reminders scheduled (basic log for now).
+
+---
+
+## 6. 🔒 Security Considerations
+
+* **Gmail Authentication:** Use App Password, not plain password.
+* **Data Storage:** CSV for MVP (switch to DB for production).
+* **PII Handling:** Email/phone masked in logs.
+* **Environment Variables:** For SMTP credentials.
+
+---
+
+## 7. 📈 Future Enhancements
+
+* 🔗 **Calendly / Google Calendar API** integration.
+* ⏰ **APScheduler** or Celery for background reminders.
+* 📱 **Twilio SMS** for two-way communication (cancellations).
+* 🗄️ Switch from CSV → SQL database.
+* 🤖 NLP-powered chatbot for patient interactions.
+
+---
+
+## 8. ✅ Summary
+
+This system demonstrates a **real-world healthcare scheduling AI agent** using **Python, Streamlit, and basic data pipelines**.
+It covers end-to-end flow: **patient intake → scheduling → confirmation → reminders → reporting**.
+
+
+

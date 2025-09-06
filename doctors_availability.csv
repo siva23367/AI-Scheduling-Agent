@@ -1,0 +1,50 @@
+doctor,date,day_of_week,start_time,end_time,duration_mins,is_booked,appointment_type,patient_id
+Dr. Smith (Cardiology),2025-09-03,Wednesday,11:00,11:30,30,True,Follow-up,PAT025
+Dr. Smith (Cardiology),2025-09-03,Wednesday,11:30,12:00,60,True,New Patient,
+Dr. Smith (Cardiology),2025-09-03,Wednesday,14:00,14:30,30,False,Follow-up,PAT049
+Dr. Smith (Cardiology),2025-09-03,Wednesday,15:00,15:30,30,False,Follow-up,PAT033
+Dr. Smith (Cardiology),2025-09-04,Thursday,13:00,13:30,30,False,Follow-up,PAT014
+Dr. Smith (Cardiology),2025-09-04,Thursday,13:30,14:00,60,False,New Patient,PAT006
+Dr. Smith (Cardiology),2025-09-04,Thursday,14:00,14:30,30,False,Follow-up,PAT022
+Dr. Smith (Cardiology),2025-09-05,Friday,09:00,09:30,30,False,Follow-up,PAT005
+Dr. Smith (Cardiology),2025-09-05,Friday,09:30,10:00,60,True,New Patient,
+Dr. Smith (Cardiology),2025-09-05,Friday,10:30,11:00,60,False,New Patient,PAT011
+Dr. Smith (Cardiology),2025-09-05,Friday,13:30,14:00,60,False,New Patient,PAT038
+Dr. Smith (Cardiology),2025-09-08,Monday,10:00,10:30,30,False,Follow-up,PAT019
+Dr. Smith (Cardiology),2025-09-08,Monday,10:30,11:00,60,False,New Patient,PAT042
+Dr. Smith (Cardiology),2025-09-08,Monday,13:00,13:30,30,False,Follow-up,PAT005
+Dr. Smith (Cardiology),2025-09-08,Monday,14:30,15:00,60,False,New Patient,PAT007
+Dr. Smith (Cardiology),2025-09-08,Monday,15:30,16:00,60,False,New Patient,PAT001
+Dr. Smith (Cardiology),2025-09-09,Tuesday,14:00,14:30,30,False,Follow-up,PAT023
+Dr. Smith (Cardiology),2025-09-09,Tuesday,14:30,15:00,60,False,New Patient,PAT042
+Dr. Smith (Cardiology),2025-09-10,Wednesday,11:30,12:00,60,False,New Patient,PAT038
+Dr. Smith (Cardiology),2025-09-10,Wednesday,15:00,15:30,30,False,Follow-up,PAT037
+Dr. Smith (Cardiology),2025-09-11,Thursday,10:00,10:30,30,False,Follow-up,PAT044
+Dr. Smith (Cardiology),2025-09-11,Thursday,10:30,11:00,60,True,New Patient,
+Dr. Smith (Cardiology),2025-09-11,Thursday,13:00,13:30,30,False,Follow-up,PAT020
+Dr. Smith (Cardiology),2025-09-12,Friday,11:00,11:30,30,False,Follow-up,PAT046
+Dr. Smith (Cardiology),2025-09-12,Friday,11:30,12:00,60,True,New Patient,
+Dr. Smith (Cardiology),2025-09-12,Friday,15:30,16:00,60,True,New Patient,
+Dr. Smith (Cardiology),2025-09-15,Monday,10:30,11:00,60,False,New Patient,PAT045
+Dr. Smith (Cardiology),2025-09-15,Monday,11:00,11:30,30,False,Follow-up,PAT033
+Dr. Smith (Cardiology),2025-09-15,Monday,15:30,16:00,60,False,New Patient,PAT018
+Dr. Smith (Cardiology),2025-09-16,Tuesday,10:00,10:30,30,False,Follow-up,PAT011
+Dr. Smith (Cardiology),2025-09-16,Tuesday,11:00,11:30,30,False,Follow-up,PAT044
+Dr. Smith (Cardiology),2025-09-16,Tuesday,13:00,13:30,30,False,Follow-up,PAT038
+Dr. Johnson (Neurology),2025-09-03,Wednesday,09:30,10:00,60,True,New Patient,
+Dr. Johnson (Neurology),2025-09-03,Wednesday,11:00,11:30,30,True,Follow-up,
+Dr. Johnson (Neurology),2025-09-03,Wednesday,11:30,12:00,60,True,New Patient,
+Dr. Johnson (Neurology),2025-09-03,Wednesday,13:00,13:30,30,True,Follow-up,PAT035
+Dr. Johnson (Neurology),2025-09-04,Thursday,10:00,10:30,30,False,Follow-up,PAT044
+Dr. Johnson (Neurology),2025-09-04,Thursday,11:30,12:00,60,False,New Patient,PAT034
+Dr. Johnson (Neurology),2025-09-04,Thursday,13:00,13:30,30,True,Follow-up,PAT011
+Dr. Johnson (Neurology),2025-09-04,Thursday,14:30,15:00,60,False,New Patient,PAT030
+Dr. Johnson (Neurology),2025-09-04,Thursday,15:00,15:30,30,False,Follow-up,PAT043
+Dr. Johnson (Neurology),2025-09-05,Friday,09:00,09:30,30,False,Follow-up,PAT002
+Dr. Johnson (Neurology),2025-09-05,Friday,10:00,10:30,30,False,Follow-up,PAT037
+Dr. Johnson (Neurology),2025-09-05,Friday,11:00,11:30,30,False,Follow-up,PAT045
+Dr. Johnson (Neurology),2025-09-05,Friday,11:30,12:00,60,False,New Patient,PAT004
+Dr. Johnson (Neurology),2025-09-08,Monday,10:30,11:00,60,False,New Patient,PAT025
+Dr. Johnson (Neurology),2025-09-08,Monday,11:30,12:00,60,False,New Patient,PAT002
+Dr. Johnson (Neurology),2025-09-09,Tuesday,10:00,10:30,30,False,Follow-up,PAT011
+Dr. Johnson (Neurology),2025-09-09,Tuesday,13:00,13:30,30,False,Follow-up,PAT018

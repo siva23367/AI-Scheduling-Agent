@@ -1,0 +1,53 @@
+patient_id,name,dob,phone,email,location,created_at,insurance_carrier,insurance_member_id,insurance_group_number
+d889c2be-1483-46a0-8871-8883cb85553f,Ravi Sharma,1996-01-16,919663444239,ravi.sharma@example.com,Uptown Health,2025-09-04T11:51:20.398,Blue Cross Blue Shield,MEM00000,GRP7897
+ece40c46-6df7-4c1e-953c-153c0acc5568,Priya Sharma,1962-04-24,919341384996,priya.sharma@example.com,Midtown,2025-09-04T11:51:20.398,Cigna,MEM00001,GRP4013
+e828e0d8-5419-465e-a676-70c4a4a022b8,Rahul Sharma,1985-11-14,919835011713,rahul.sharma@example.com,Midtown,2025-09-04T11:51:20.398,Cigna,MEM00002,GRP2294
+3fc7a8b2-1e81-49d1-b41c-012c888e10a1,Asha Sharma,1970-09-25,919551575958,asha.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.398,Cigna,MEM00003,GRP9261
+fcc87e96-89df-43c0-b45a-05aa112679b1,Asha Sharma,1989-06-25,919784269476,asha.sharma@example.com,Midtown,2025-09-04T11:51:20.398,UnitedHealthcare,MEM00004,GRP1087
+e2943894-0d2b-40b2-beaf-e9b76caabdea,Ravi Reddy,1986-11-09,919408931114,ravi.reddy@example.com,Midtown,2025-09-04T11:51:20.398,UnitedHealthcare,MEM00005,GRP1355
+9d1144ff-233c-42a2-b54d-6fbbb60bc572,Asha Sharma,1962-09-10,919435197995,asha.sharma@example.com,Uptown Health,2025-09-04T11:51:20.398,Aetna,MEM00006,GRP4223
+071c560b-f4c9-4120-8eda-93757e2f1ae3,Ravi Kumar,1975-04-09,919630868577,ravi.kumar@example.com,Uptown Health,2025-09-04T11:51:20.398,Blue Cross Blue Shield,MEM00007,GRP5536
+2ebcb49a-0cf0-44b6-aca5-e59d0032e2e7,Ravi Kumar,1971-04-24,919343465065,ravi.kumar@example.com,Uptown Health,2025-09-04T11:51:20.398,Cigna,MEM00008,GRP5470
+c59919d2-0251-4766-bb21-86d9847f3c79,Priya Reddy,1998-12-05,919022262669,priya.reddy@example.com,Downtown Clinic,2025-09-04T11:51:20.398,UnitedHealthcare,MEM00009,GRP2492
+56ef5f96-ea5b-43b3-b0f1-e8f0bbae90bc,Ravi Patel,2003-12-06,919453708527,ravi.patel@example.com,Midtown,2025-09-04T11:51:20.398,Cigna,MEM00010,GRP6897
+1a89c237-fce9-4556-8265-4a63a77f3a48,Rahul Sharma,2001-05-18,919373289108,rahul.sharma@example.com,Midtown,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00011,GRP6907
+2af9d471-09bc-4079-8d8c-f5fb6c511ba3,Asha Reddy,1966-02-04,919452389469,asha.reddy@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00012,GRP1327
+145a4876-c42d-4595-83e2-89e9c3c9eddd,Asha Kumar,1982-05-07,919433104050,asha.kumar@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00013,GRP5835
+863119db-855a-49eb-90af-e3e9c661de2b,Ravi Kumar,1981-10-21,919845800623,ravi.kumar@example.com,Midtown,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00014,GRP8744
+3016c971-9259-47b3-8c64-45a99e9d21d8,Asha Sharma,1995-05-16,919397577688,asha.sharma@example.com,Uptown Health,2025-09-04T11:51:20.399,Aetna,MEM00015,GRP4559
+91d8cdb3-a43c-4479-b04d-4aab686dc1af,Ravi Sharma,1967-06-02,919067436865,ravi.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Cigna,MEM00016,GRP1634
+a24be7ea-ddc1-4072-9be9-ce8904255893,Priya Reddy,1964-06-16,919809204659,priya.reddy@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00017,GRP9772
+f9378620-b01f-4e07-b2b8-8352facf5b5e,Ravi Sharma,1996-01-17,919107262106,ravi.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Cigna,MEM00018,GRP5122
+05d73594-3272-4e86-a838-cd8cfb5f5706,Priya Sharma,1992-02-05,919097065703,priya.sharma@example.com,Midtown,2025-09-04T11:51:20.399,Cigna,MEM00019,GRP5516
+08d816f2-3ba6-4ad1-b707-2192cedf92dc,Asha Sharma,1974-10-15,919997553578,asha.sharma@example.com,Uptown Health,2025-09-04T11:51:20.399,Aetna,MEM00020,GRP3505
+f3490e68-0ae4-4916-93d8-d73a7ec321f5,Ravi Sharma,1964-04-25,919554042036,ravi.sharma@example.com,Uptown Health,2025-09-04T11:51:20.399,Aetna,MEM00021,GRP6055
+4fe28427-5367-417f-88c5-429244bb6974,Ravi Patel,1976-07-18,919174777260,ravi.patel@example.com,Uptown Health,2025-09-04T11:51:20.399,Cigna,MEM00022,GRP8662
+204d8ddb-7d45-4cc7-abe8-18733d2c7563,Asha Kumar,1962-11-04,919614049825,asha.kumar@example.com,Midtown,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00023,GRP3021
+3785a9be-efdb-4417-9dd8-6a47d3d575de,Rahul Reddy,1987-09-19,919414143049,rahul.reddy@example.com,Midtown,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00024,GRP9080
+f4ae76bb-b3b3-42f5-90eb-71c15591c755,Priya Reddy,1997-08-02,919841179984,priya.reddy@example.com,Uptown Health,2025-09-04T11:51:20.399,Cigna,MEM00025,GRP3913
+757b093d-b367-4bd3-b5f4-0b3822a549bb,Asha Reddy,2003-07-12,919845340912,asha.reddy@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Aetna,MEM00026,GRP6600
+fdadc4e9-bd96-40cc-8280-53cfc85eab5b,Priya Kumar,1974-12-19,919358623426,priya.kumar@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00027,GRP7695
+008e5fea-1c4d-4ec7-a792-b151833b6513,Priya Patel,1962-12-22,919599342476,priya.patel@example.com,Uptown Health,2025-09-04T11:51:20.399,Cigna,MEM00028,GRP8685
+a627dca8-cdd2-4be7-899a-06e1ff4e0b9a,Rahul Reddy,1993-10-15,919723170248,rahul.reddy@example.com,Uptown Health,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00029,GRP4531
+4925dd22-f003-4416-97de-b36661f79089,Ravi Sharma,2003-06-21,919020953595,ravi.sharma@example.com,Uptown Health,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00030,GRP9725
+470b54c2-de56-4dbf-b4d8-e881b9e6f18d,Priya Sharma,1977-06-12,919821243207,priya.sharma@example.com,Midtown,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00031,GRP3752
+ced90117-3984-49ac-bdc4-b99fb733fec5,Asha Kumar,1987-04-14,919480927935,asha.kumar@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Cigna,MEM00032,GRP2767
+5bd49f8c-c539-4df3-ab3c-8ff734686c72,Priya Kumar,1990-04-23,919241667406,priya.kumar@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00033,GRP5220
+6f4ed9e8-a1e3-43e0-920b-737d6c93849e,Rahul Sharma,1980-03-25,919648555773,rahul.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00034,GRP7656
+95ca9c35-dad5-4773-a51d-fbd0085784f1,Ravi Kumar,1969-03-24,919730535487,ravi.kumar@example.com,Midtown,2025-09-04T11:51:20.399,Aetna,MEM00035,GRP9195
+b55c132c-0a7b-46c9-9480-6bd15062dab7,Priya Patel,1983-05-08,919250713827,priya.patel@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Cigna,MEM00036,GRP4382
+bdcdebba-b010-434e-9113-86f401198115,Asha Kumar,1995-11-24,919902598083,asha.kumar@example.com,Uptown Health,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00037,GRP3967
+5ab3e7c6-d411-45e6-bc8a-2d83639526eb,Priya Kumar,1986-12-21,919892799624,priya.kumar@example.com,Midtown,2025-09-04T11:51:20.399,Aetna,MEM00038,GRP6152
+7c4bc254-abc9-474b-8060-aa9461cede19,Asha Patel,1973-01-05,919342008933,asha.patel@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00039,GRP1585
+0b7c270f-9209-4ec7-b2ac-3e53f52f85b0,Priya Patel,1975-07-06,919208539193,priya.patel@example.com,Midtown,2025-09-04T11:51:20.399,Cigna,MEM00040,GRP8602
+29195107-427a-41fc-82be-1606351ca7e2,Priya Reddy,1966-05-25,919922295205,priya.reddy@example.com,Uptown Health,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00041,GRP9909
+9a98f9f2-d765-4d64-8ea1-564af8390c3e,Asha Kumar,1969-01-03,919289551635,asha.kumar@example.com,Midtown,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00042,GRP8681
+06813f41-432d-4f11-9102-5e26a09743e0,Rahul Kumar,1977-10-10,919763655842,rahul.kumar@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00043,GRP6686
+5a87040e-8678-4d33-a715-31031a802d41,Priya Sharma,1972-12-26,919767422392,priya.sharma@example.com,Uptown Health,2025-09-04T11:51:20.399,Blue Cross Blue Shield,MEM00044,GRP9405
+71df1a6e-c4cc-4c1f-8153-de6b37788e17,Ravi Sharma,1980-12-07,919685168676,ravi.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.399,Aetna,MEM00045,GRP6215
+c3f4da6e-1528-4c36-8f72-8a31339b4263,Rahul Reddy,1973-12-12,919436011501,rahul.reddy@example.com,Uptown Health,2025-09-04T11:51:20.399,Aetna,MEM00046,GRP4092
+cca04492-e3d8-40a6-9ed0-1694de620969,Priya Reddy,1975-07-04,919712105686,priya.reddy@example.com,Uptown Health,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00047,GRP7456
+a9011858-4c61-4b9a-b311-eac43b0c4c12,Asha Sharma,1976-01-05,919176714900,asha.sharma@example.com,Downtown Clinic,2025-09-04T11:51:20.399,UnitedHealthcare,MEM00048,GRP1284
+284d2165-f00b-4f26-8b74-ab778edde8e8,Priya Kumar,1975-02-02,919005494837,priya.kumar@example.com,Midtown,2025-09-04T11:51:20.399,Cigna,MEM00049,GRP2197
+,Mahesh babu,1986-09-03,,nsiva390@gmail.com,,,Cigna,MEM00002,GRP2294
+,Siva Kumar Yerramsetti,2002-03-12,9391241551,nsiva390@gmail.com,india,,United Health,Meme004,Grep45
